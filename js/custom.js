@@ -157,20 +157,20 @@ var THEMEMASCOT = {};
 
         init: function() {
             THEMEMASCOT.bmiCalculator.init();
-            THEMEMASCOT.initialize.TM_datePicker();
-            THEMEMASCOT.initialize.TM_ddslick();
-            THEMEMASCOT.initialize.TM_loadBSParentModal();
-            THEMEMASCOT.initialize.TM_demoSwitcher();
-            THEMEMASCOT.initialize.TM_platformDetect();
-            THEMEMASCOT.initialize.TM_onLoadModal();
-            THEMEMASCOT.initialize.TM_customDataAttributes();
+            // THEMEMASCOT.initialize.TM_datePicker();
+            // THEMEMASCOT.initialize.TM_ddslick();
+            // THEMEMASCOT.initialize.TM_loadBSParentModal();
+            // THEMEMASCOT.initialize.TM_demoSwitcher();
+            // THEMEMASCOT.initialize.TM_platformDetect();
+            // THEMEMASCOT.initialize.TM_onLoadModal();
+            // THEMEMASCOT.initialize.TM_customDataAttributes();
             THEMEMASCOT.initialize.TM_parallaxBgInit();
-            THEMEMASCOT.initialize.TM_resizeFullscreen();
+            // THEMEMASCOT.initialize.TM_resizeFullscreen();
             THEMEMASCOT.initialize.TM_prettyPhoto_lightbox();
-            THEMEMASCOT.initialize.TM_nivolightbox();
-            THEMEMASCOT.initialize.TM_fitVids();
-            THEMEMASCOT.initialize.TM_YTPlayer();
-            THEMEMASCOT.initialize.TM_equalHeightDivs();
+            // THEMEMASCOT.initialize.TM_nivolightbox();
+            // THEMEMASCOT.initialize.TM_fitVids();
+            // THEMEMASCOT.initialize.TM_YTPlayer();
+            // THEMEMASCOT.initialize.TM_equalHeightDivs();
         },
 
 
@@ -223,14 +223,14 @@ var THEMEMASCOT = {};
         /* ------------------------ Bootstrap Parent Modal  --------------------- */
         /* ---------------------------------------------------------------------- */
         TM_loadBSParentModal: function() {
-            var ajaxLoadContent = true;
-            if( ajaxLoadContent ) {
-                $.ajax({
-                    url: "ajax-load/bootstrap-parent-modal.html",
-                    success: function (data) { $body.append(data); },
-                    dataType: 'html'
-                });
-            }
+//             var ajaxLoadContent = true;
+//             if( ajaxLoadContent ) {
+//                 $.ajax({
+//                     url: "ajax-load/bootstrap-parent-modal.html",
+//                     success: function (data) { $body.append(data); },
+//                     dataType: 'html'
+//                 });
+//             }
         },
         /* ---------------------------------------------------------------------- */
         /* ------------------------------ Demo Switcher  ------------------------ */
